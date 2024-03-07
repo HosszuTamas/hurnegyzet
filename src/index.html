@@ -1,0 +1,51 @@
+<!--
+File: index.html
+Author: Hosszú Tamás
+Copyright: 2024, Hosszú Tamás
+Group: Szoft I/1/N
+Date: 2024-03-07
+Github: https://github.com/hosszutamas/
+Licenc: GNU GPL
+-->
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Húrnégyszög területe</title>
+    <link rel="stylesheet" href="bootstrap.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Húrnégyszög területe</h1>
+        <div class="hurnegyszogform">
+            <div class="input">
+                <label for="a">a oldal</label>
+                <input type="text" id="a" required class="form-control">
+            </div>
+            <div class="input">
+                <label for="b">b oldal</label>
+                <input type="text" id="b" required class="form-control">
+            </div>
+            <div class="input">
+                <label for="c">c oldal</label>
+                <input type="text" id="c" required class="form-control">
+            </div>
+            <div class="input">
+                <label for="d">d oldal</label>
+                <input type="text" id="d" required class="form-control">
+            </div>
+            <div>
+                <button id="calcButton"
+                class="btn btn-primary mt-4">Számít</button>
+            </div>
+            <div class="input">
+                <label for="area" 
+                class="form-label">Terület</label>
+                <input type="text" id="area" readonly class="form-control mb-5">
+            </div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
